@@ -15,7 +15,7 @@
 Math.random()* (max-min+1)
 
 console.log(Math.floor(Math.random()*(max-min+1)+min))
-
+  
 // THE  output is beetween 10 or 20(include 10 or 20)
 
  
