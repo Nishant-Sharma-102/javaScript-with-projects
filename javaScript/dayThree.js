@@ -65,3 +65,4 @@ console.log(start.indexOf('june'))
 let tictoc= [['X',null,'0'] , [null,'X','0'],['0',null,'0']]
 
 console.log(tictoc);
+console.log(tictoc)
