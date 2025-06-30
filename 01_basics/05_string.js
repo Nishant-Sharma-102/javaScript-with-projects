@@ -7,15 +7,18 @@ const rollno = 67
 //     and i am a student my roll no. is 67 `);//convinent way to addstrings
 
 const method = new String("nishant sharma");
-console.log(method.substring(0,4));
-console.log(method.charAt(3));
-console.log(method.indexOf('t'));
-console.log(method.includes("sh"));
-console.log(method.trim());
-console.log(method.toUpperCase());
-console.log(method.length);
-console.log(method[0]);
 
 
+const gameName  = new String('Sharma');
+
+// console.log(gameName.length);
+// console.log(gameName.anchor(gameName));
+console.log(gameName.at(gameName))
+console.log(gameName.blink(gameName))
+console.log(gameName.bold(gameName))
+console.log(gameName.concat(gameName));
+console.log(gameName.fontcolor("red"));
+
+console.log(gameName.slice(2,4));
 
 
