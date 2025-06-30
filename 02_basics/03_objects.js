@@ -30,4 +30,16 @@ jsUser.greeting=function(){
     console.log(`Namaste js ${this.name}`);
 }
 
-console.log(jsUser.greeting());
+//console.log(jsUser.greeting());
+
+
+//Object structure
+
+const course={
+    name:"javaScriptcourse",
+    instructer :"hitesh",
+    price:999,
+
+}
+const{instructer:techer} = course;
+console.log(techer);
